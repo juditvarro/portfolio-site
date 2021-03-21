@@ -10,7 +10,6 @@ import '../../styles/WrapperContact.css';
 
 const ContactContainer = () => {
     return (
-        <div className='outsideDiv'>
             <Container className='wrapperContact'>
                 <Subtitle subtitle='CONTACT' />
                 <Container className='contactinfo'>
@@ -60,8 +59,6 @@ const ContactContainer = () => {
                 </Container>
                 <Footer />
             </Container>
-        </div>
-
     );
 };
 
