@@ -1,11 +1,13 @@
 .hero {
-  min-height: 70vh;
+  min-height: 80vh;
   height: 80vh;
   display: flex;
   flex-direction: column;
   border-bottom: 0px;
   background: url("../assets/herobackgr.jpg");
   background-position: center;
+  /* background-repeat: no-repeat;
+  background-attachment: fixed; */
   background-size: cover;
   padding: 5rem 3rem;
 

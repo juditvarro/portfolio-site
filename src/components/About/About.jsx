@@ -23,7 +23,7 @@ const About = () => {
 
     return (
         <Container className='wrapperContainer'>
-            <Subtitle subtitle='ABOUT ME' />
+            <Subtitle subtitle='about me' />
             <Container className='about'>
                 <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000}>
                     <AboutImage />

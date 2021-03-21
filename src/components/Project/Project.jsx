@@ -4,7 +4,7 @@ import '../../styles/Project.css';
 const Project = (props) => {
   return (
     <div className='project'>
-      <h1>{props.content}</h1>
+      <p>{props.content}</p>
     </div>
   );
 };

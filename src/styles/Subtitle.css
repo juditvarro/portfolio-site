@@ -1,6 +1,7 @@
 .subtitle {
     font-weight: 900;
-    font-size: 150%;
+    font-size: 1.5rem;
+    text-transform: uppercase;
     color: rgb(144, 208, 218);
     text-shadow: 1px 2px rgb(240,117,98);
     margin-top: 0%;

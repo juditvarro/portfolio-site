@@ -11,11 +11,14 @@
   -webkit-clip-path: polygon(100% 0, 100% 79%, 28% 100%, 0 100%, 0 0);
   clip-path: polygon(100% 0, 100% 79%, 28% 100%, 0 100%, 0 0);
   padding: 5rem 3rem;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .contact {
   font-weight: 900;
-  font-size: 180%;
+  font-size: 1.5rem;
   color: rgb(144, 208, 218);
   margin-top: 0%;
   margin-bottom: 0%;
@@ -52,13 +55,6 @@
 .button:hover {
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s;
   background: transparent;
-  font-weight: 80;
-  font-size: 70%;
   color: rgb(144, 208, 218);
 }
 
-.button span {
-  color: rgb(181, 45, 83);
-  font-size: 18px;
-  font-weight: 80;
-}
