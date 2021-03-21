@@ -12,12 +12,12 @@
 .footer_text {
   color: rgb(88, 136, 143);
   font-weight: 80;
-  font-size: 100%;
+  font-size: 1rem;
 }
 
 a {
   color: rgb(144, 208, 218);
-  font-size: 100%;
+  font-size: 1rem;
   transition: all 0.4s;
   text-decoration: none;
 }
@@ -32,7 +32,7 @@ a:hover {
 }
 
 hr {
-  margin-top: 6rem;
+  margin-top: 1.75rem;
   margin-bottom: 1rem;
   border: 0;
   width: 50%;
