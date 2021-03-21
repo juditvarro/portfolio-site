@@ -10,55 +10,58 @@ import '../../styles/WrapperContact.css';
 
 const ContactContainer = () => {
     return (
-        <Container className='wrapperContact'>
-            <Subtitle subtitle='CONTACT' />
-            <Container className='contactinfo'>
-                <Fade bottom duration={1000} delay={800} distance='30px'>
-                    <div className='contact'>
-                        <p className='contact_text'>
-                            {'Feel free to use the buttons below!'}
-                        </p>
-                        <div className='buttongroup'>
-                            <>
-                                <Button 
-                                    className='button button-resume' 
-                                    href='https://github.com/juditvarro?tab=repositories'
-                                    rel='noopener noreferrer'
-                                    target='_blank'
-                                    aria-label='facebook_connection'>
-                                    <RiFacebookFill />
-                                </Button>
-                                <Button 
-                                    className='button button-resume'
-                                    href='https://github.com/juditvarro?tab=repositories'
-                                    rel='noopener noreferrer'
-                                    target='_blank'
-                                    aria-label='github_connection'>
-                                    <VscGithub />
-                                </Button>
-                                <Button 
-                                    className='button button-resume'
-                                    href='https://github.com/juditvarro?tab=repositories'
-                                    rel='noopener noreferrer'
-                                    target='_blank'
-                                    aria-label='linkedin_connection'>   
-                                    <RiLinkedinFill />
-                                </Button>
-                                <Button 
-                                    className='button button-resume'
-                                    href='https://github.com/juditvarro?tab=repositories'
-                                    rel='noopener noreferrer'
-                                    target='_blank'
-                                    aria-label='twitter_connection'>
-                                    <CgTwitter />
-                                </Button>
-                            </>
+        <div className='outsideDiv'>
+            <Container className='wrapperContact'>
+                <Subtitle subtitle='CONTACT' />
+                <Container className='contactinfo'>
+                    <Fade bottom duration={1000} delay={800} distance='30px'>
+                        <div className='contact'>
+                            <p className='contact_text'>
+                                {'Feel free to use the buttons below!'}
+                            </p>
+                            <div className='buttongroup'>
+                                <>
+                                    <Button
+                                        className='button button-resume'
+                                        href='https://github.com/juditvarro?tab=repositories'
+                                        rel='noopener noreferrer'
+                                        target='_blank'
+                                        aria-label='facebook_connection'>
+                                        <RiFacebookFill />
+                                    </Button>
+                                    <Button
+                                        className='button button-resume'
+                                        href='https://github.com/juditvarro?tab=repositories'
+                                        rel='noopener noreferrer'
+                                        target='_blank'
+                                        aria-label='github_connection'>
+                                        <VscGithub />
+                                    </Button>
+                                    <Button
+                                        className='button button-resume'
+                                        href='https://github.com/juditvarro?tab=repositories'
+                                        rel='noopener noreferrer'
+                                        target='_blank'
+                                        aria-label='linkedin_connection'>
+                                        <RiLinkedinFill />
+                                    </Button>
+                                    <Button
+                                        className='button button-resume'
+                                        href='https://github.com/juditvarro?tab=repositories'
+                                        rel='noopener noreferrer'
+                                        target='_blank'
+                                        aria-label='twitter_connection'>
+                                        <CgTwitter />
+                                    </Button>
+                                </>
+                            </div>
                         </div>
-                    </div>
-                </Fade>
+                    </Fade>
+                </Container>
+                <Footer />
             </Container>
-            <Footer />
-        </Container>
+        </div>
+
     );
 };
 

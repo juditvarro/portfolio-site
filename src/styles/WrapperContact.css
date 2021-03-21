@@ -11,28 +11,24 @@
   -webkit-clip-path: polygon(100% 0, 100% 79%, 28% 100%, 0 100%, 0 0);
   clip-path: polygon(100% 0, 100% 79%, 28% 100%, 0 100%, 0 0);
   padding: 5rem 3rem;
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 .contact {
   font-weight: 900;
   font-size: 1.5rem;
   color: rgb(144, 208, 218);
-  margin-top: 0%;
   margin-bottom: 0%;
   padding-top: 2%;
   display: flex;
   flex-direction: column; 
   align-items: center;  
-  margin-top: 3rem;
+  margin-top: 0.5rem;
 }
 
 .buttongroup {
   display: inherit;
   flex-direction: row;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
 }
 
 .button {
