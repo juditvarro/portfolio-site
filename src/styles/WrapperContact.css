@@ -1,0 +1,64 @@
+.wrapperContact {
+  min-height: 80vh;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 0px;
+  background-color: rgb(0, 0, 2);
+  background-image: linear-gradient( 180deg, rgb(44, 11, 51) 0%, rgb(181, 45, 83) 100%);
+  -webkit-clip-path: polygon(100% 0, 100% 79%, 28% 100%, 0 100%, 0 0);
+  clip-path: polygon(100% 0, 100% 79%, 28% 100%, 0 100%, 0 0);
+  padding: 5rem 3rem;
+}
+
+.contact {
+  font-weight: 900;
+  font-size: 180%;
+  color: rgb(144, 208, 218);
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding-top: 2%;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;  
+  margin-top: 3rem;
+}
+
+.buttongroup {
+  display: inherit;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+.button {
+  margin: 3%;
+  font-weight: 80;
+  font-size: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(44, 11, 51);
+  width: 60px;
+  height: 60px;
+  background: rgb(144, 208, 218);
+  border: 1px solid rgb(144, 208, 218);
+  outline: none;
+  transition: 1s ease-in-out;
+  cursor: default;
+}
+
+.button:hover {
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s;
+  background: transparent;
+  font-weight: 80;
+  font-size: 70%;
+  color: rgb(144, 208, 218);
+}
+
+.button span {
+  color: rgb(181, 45, 83);
+  font-size: 18px;
+  font-weight: 80;
+}

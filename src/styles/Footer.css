@@ -1,0 +1,41 @@
+.footer {
+  color: rgb(144, 208, 218);
+  padding: 4.8rem 0;
+}
+
+.navigationdiv {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_text {
+  color: rgb(88, 136, 143);
+  font-weight: 80;
+  font-size: 100%;
+}
+
+a {
+  color: rgb(144, 208, 218);
+  font-size: 100%;
+  transition: all 0.4s;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(240, 117, 98);
+  -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+  cursor: default;
+
+}
+
+hr {
+  margin-top: 6rem;
+  margin-bottom: 1rem;
+  border: 0;
+  width: 50%;
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+}
+

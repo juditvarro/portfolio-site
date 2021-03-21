@@ -1,0 +1,9 @@
+.title {
+    font-weight: 900;
+    font-size: 150%;
+    color: rgb(144, 208, 218);
+    text-shadow: 1px 2px rgb(240,117,98);
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-left: 5%;
+  }
