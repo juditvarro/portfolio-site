@@ -3,7 +3,21 @@ import Fade from 'react-reveal/Fade';
 import { Container } from 'react-bootstrap';
 import Title from '../Title/Title';
 import Intro from '../Intro/Intro';
-import '../../styles/Hero.css';
+import Background from '../../assets/herobackgr.jpg';
+
+const style = {
+    hero: {
+        minHeight: '80vh',
+        height: '80vh',
+        display: 'flex',
+        flexDirection: 'column',
+        borderBottom: '0px',
+        background: `url(${Background})`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        padding: '5rem 3rem',
+    }
+}
 
 const Hero = () => {
     const [isDesktop, setIsDesktop] = useState(false);
@@ -20,12 +34,12 @@ const Hero = () => {
     }, []);
 
     return (
-        <Container className='hero'>
+        <Container style={style.hero} className='hero'>
             <Fade top={isDesktop} bottom={isMobile} duration={1000} delay={500}>
-                <Title title='portfolio website'/>
+                <Title title='portfolio website' />
             </Fade>
             <Fade top={isDesktop} bottom={isMobile} duration={1000} delay={1000}>
-                <Intro name='Judit'/>
+                <Intro name='Judit' />
             </Fade>
         </Container>
     );

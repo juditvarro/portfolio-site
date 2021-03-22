@@ -1,9 +1,20 @@
 import React from 'react';
-import '../../styles/Subtitle.css';
+
+const style = {
+  subtitle: {
+    fontWeight: '900',
+    fontSize: '1.5rem',
+    textTransform: 'uppercase',
+    color: 'rgb(144, 208, 218)',
+    textShadow: '1px 2px rgb(240,117,98)',
+    marginTop: '0%',
+    marginBottom: '0%',
+  }
+}
 
 const Subtitle = (props) => {
   return (
-    <div className='subtitle'>
+    <div style={style.subtitle} className='subtitle'>
       <h1>{props.subtitle}</h1>
     </div>
   );

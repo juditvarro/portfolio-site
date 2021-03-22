@@ -4,8 +4,18 @@ import { Container } from 'react-bootstrap';
 import AboutImage from '../AboutImage/AboutImage';
 import Resume from '../Resume/Resume';
 import Subtitle from '../Subtitle/Subtitle';
-import '../../styles/About.css';
-import '../../styles/WrapperContainer.css';
+
+const style = {
+    wrapper: {
+        backgroundImage: 'linear-gradient(180deg, rgb(181,45,83) 0%, rgb(0,1,3) 100%,)',
+    },
+    about: {
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+    }
+}
 
 const About = () => {
     const [isDesktop, setIsDesktop] = useState(false);
@@ -22,9 +32,9 @@ const About = () => {
     }, []);
 
     return (
-        <Container className='wrapperContainer'>
+        <Container style={style.wrapper} className='wrapperContainer'>
             <Subtitle subtitle='about me' />
-            <Container className='about'>
+            <Container style={style.about} className='about'>
                 <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000}>
                     <AboutImage />
                 </Fade>
